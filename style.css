@@ -1,0 +1,127 @@
+.jumbotron
+{
+background-image:url('lady.jpg');
+height:700px;
+background-attachment:fixed;
+color:white;	
+}
+body
+{
+background-color: #ffad33;	
+}
+#histpic
+{
+width:600px;	
+height:auto;
+border-radius:50%;
+}
+h2,h1
+{
+color:white;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) 
+{
+background-color:#ffad33;
+}
+
+ul.topnav li a.active 
+{
+background-color:#66ff33 ;
+}
+
+ul.topnav li.right 
+{
+float: right;
+}
+
+@media screen and (max-width: 600px){
+   ul.topnav li.right,
+ul.topnav li {float: none;}
+}
+#authen
+{
+width:180px;
+height:150px;
+border-radius:20%;	
+}
+.firstline
+{
+color:white;	
+}
+#hotoil, #sport, #natal
+{
+width:180px;
+height:150px;
+border-radius:20%;	
+
+}
+#toph
+{
+text-align:center;	
+}
+.bottom
+{
+background: #66ff33;
+min-height:300px;
+color:#fff;
+text-align:center;
+}
+.bottomt
+{
+text-align:left;
+color:#998200;	
+}
+.bh
+{
+text-decoration:underline;
+color:black;	
+}
+#facebook
+{
+width:50px;
+height:50px;
+}
+#bottomcen
+{
+text-align:left;	
+}
+#bottoml
+{
+color:#998200;
+text-align:left;	
+}
+.morebottom
+{
+background:#333;
+min-height:50px;
+color:#fff;
+text-align:left;	
+}
+#btt
+{
+color:#998200;
+text-align:center;
+}
+#secondlady
+{
+background-image:url('secondlady.gif');
+height:700px;
+}
