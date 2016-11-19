@@ -125,3 +125,9 @@ text-align:center;
 background-image:url('secondlady.gif');
 height:700px;
 }
+#tmFirstPic, #tmSecondPic, #tmThirdPic, #tmFourthPic, #tmFifthPic, #tmSixthPic, #tmSeventhPic, #tmEightPic
+{
+width:500px;
+height:250px;
+border-radius:20px;
+}
