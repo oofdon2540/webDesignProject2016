@@ -1,6 +1,6 @@
 .jumbotron
 {
-background-image:url('lady.jpg');
+background-image:url('image/lady.jpg');
 height:700px;
 background-attachment:fixed;
 color:white;	
@@ -122,7 +122,7 @@ text-align:center;
 }
 #secondlady
 {
-background-image:url('secondlady.gif');
+background-image:url('image/secondlady.gif');
 height:700px;
 }
 #tmFirstPic, #tmSecondPic, #tmThirdPic, #tmFourthPic, #tmFifthPic, #tmSixthPic, #tmSeventhPic, #tmEightPic
@@ -130,4 +130,5 @@ height:700px;
 width:500px;
 height:250px;
 border-radius:20px;
+
 }
