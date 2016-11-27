@@ -1,7 +1,7 @@
 function price(){
 			var people=parseInt(prompt("How many people?"));
-			var treatment=prompt("What treatment?");
-			if(treatment=="Authentic" || treatment=="authentic"){
+			var treatment=prompt("What treatment no. would you like?");
+			if(treatment=="1" || treatment=="1"){
 				if(people==1){
 					alert("50 Euro");
 				}
@@ -19,7 +19,7 @@ function price(){
 				}
 				
 			}
-			else if(treatment=="Hotoil" || treatment=="hotoil"){
+			else if(treatment=="2" || treatment=="2"){
 				if(people==1){
 					alert("50 Euro");
 				}
@@ -36,7 +36,7 @@ function price(){
 					alert("Sorry! we only have two therapists available for customers.");
 				}
 			}
-			else if(treatment=="Healing" || treatment=="healing"){
+			else if(treatment=="3" || treatment=="3"){
 				if(people==1){
 					alert("60 Euro");
 				}
@@ -54,7 +54,7 @@ function price(){
 				}
 				
 			}
-			else if(treatment=="Herbal" || treatment=="herbal"){
+			else if(treatment=="4" || treatment=="4"){
 				if(people==1){
 					alert("60 Euro");
 				}
@@ -72,7 +72,7 @@ function price(){
 				}
 				
 			}
-			else if(treatment=="Sport" || treatment=="sport"){
+			else if(treatment=="5" || treatment=="5"){
 				if(people==1){
 					alert("60 Euro");
 				}
@@ -89,7 +89,7 @@ function price(){
 					alert("Sorry! we only have two therapists available for customers.");
 				}
 			}	
-			else if(treatment=="Back" || treatment=="back"){
+			else if(treatment=="7" || treatment=="7"){
 				if(people==1){
 					alert("30 Euro/30 Minutes");
 				}
@@ -106,7 +106,7 @@ function price(){
 					alert("Sorry! we only have two therapists available for customers.");
 				}
 			}
-			else if(treatment=="Neck" || treatment=="neck"){
+			else if(treatment=="7" || treatment=="7"){
 				if(people==1){
 					alert("30 Euro/30 Minutes");
 				}
@@ -123,7 +123,7 @@ function price(){
 					alert("Sorry! we only have two therapists available for customers.");
 				}
 			}
-			else if(treatment=="Head" || treatment=="head"){
+			else if(treatment=="7" || treatment=="7"){
 				if(people==1){
 					alert("30 Euro/30 Minutes");
 				}
@@ -140,7 +140,7 @@ function price(){
 					alert("Sorry! we only have two therapists available for customers.");
 				}
 			}
-			else if(treatment=="Shoulder" || treatment=="shoulder"){
+			else if(treatment=="7" || treatment=="7"){
 				if(people==1){
 					alert("30 Euro/30 Minutes");
 				}
@@ -157,7 +157,7 @@ function price(){
 					alert("Sorry! we only have two therapists available for customers.");
 				}
 			}
-			else if(treatment=="Reflexology" || treatment=="reflexology"){
+			else if(treatment=="8" || treatment=="8"){
 				if(people==1){
 					alert("45 Euro/45 Minutes");
 				}
@@ -174,7 +174,7 @@ function price(){
 					alert("Sorry! we only have two therapists available for customers.");
 				}
 			}
-			else if(treatment=="Natal" || treatment=="natal"){
+			else if(treatment=="6" || treatment=="6"){
 				if(people==1){
 					alert("50 Euro");
 				}
@@ -190,9 +190,9 @@ function price(){
 				else{
 					alert("Sorry! we only have two therapists available for customers.");
 				}
-			}
+			}	
+			
 			else{
 				alert("Please try again.")
 			}
-
-}
+}			

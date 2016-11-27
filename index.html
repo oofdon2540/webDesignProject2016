@@ -24,8 +24,6 @@
 				<h1> Welcome to Thai Healing Massage</h1>
 				<p> Visit us at First floor, 53 Middle Abbey streeet, Dublin 1</p>
 				<p> Open Monday-Sunday</p>
-				
-
 			</div>
 		</div>
 		<div class="container">
@@ -75,7 +73,7 @@
 					</p>
 				</div>
 				<div class="col-md-6" class="col-sm-12">
-					<img src="history.jpg" id="histpic"></img>
+					<img src="image/history.jpg" id="histpic"></img>
 				</div>	
 			</div>	
 		</div>
@@ -175,23 +173,23 @@
 				<p id="btt">@Yotsaphon Sutweha 2016</p>
 			</div>
 		</div>
-		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+			<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 			<script src="js/bootstrap.js"></script>
-				<script>
-	$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-				</script>
+		<script>
+			$(function() {
+				$('a[href*=#]:not([href=#])').click(function() {
+					if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+						var target = $(this.hash);
+							target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+					if (target.length) {
+						$('html,body').animate({
+						scrollTop: target.offset().top
+						}, 1000);
+						return false;
+						}
+					}
+				});
+			});
+		</script>
 	</body>
 </html>						
