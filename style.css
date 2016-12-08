@@ -3,11 +3,11 @@
 background-image:url('image/lady.jpg');
 height:700px;
 background-attachment:fixed;
-color:#435A0E;	
+color:#e67300;	
 }
 body
 {
-background-color: #ffad33;	
+background-color: #ffad33;
 }
 #histpic
 {
@@ -20,21 +20,22 @@ h2,h1
 color:white;
 }
 ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+
 }
 
 ul.topnav li {float: left;}
 
 ul.topnav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
 
 ul.topnav li a:hover:not(.active) 
@@ -180,7 +181,7 @@ text-align:center;
 font-weight:bold;
 color:#806c00;
 }
-.col-sm-12
+#flower
 {
-margin:0 auto;	
+background-image:url("image/flower.jpg");
 }

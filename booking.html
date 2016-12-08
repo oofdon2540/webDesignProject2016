@@ -16,63 +16,30 @@
 				<li><a href="booking.html">Appointment</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
-			<div class="jumbotron" id="candles">
+			<div class="jumbotron" id="flower">
 				<div class="container">
-					<h1>Our Special Offer</h1>
+					<h1>Making An Appointment Below</h1>
 					<p> Visit us at First floor, 53 Middle Abbey streeet, Dublin 1</p>
 					<p> Open Monday-Sunday</p>
 				</div>
 			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 id="number">CONTACT US: +353 86 234 2943, +353 83 840 4610</h2>
+			
+				<div class="container">	
+					<div class="row">
+						<div class="col-md-12">
+							<h3 id="form">YOU CAN BOOK US ONLINE AND LEAVE A COMMENT BELOW</h3>
+							<form>
+								<input type="text" name="fname" placeholder="First name"><br>
+								<input type="text" name="lname" placeholder="Last name"><br>
+								<input type="text" name="email" placeholder="Email"><br>
+							</form>
+							<textarea name="comment" rows="10" cols="80">Enter text here...</textarea>
+							<form>
+								<input type="submit">
+							</form>	
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="slideshow">
-				<div class="w3-content w3-section" style="max-width:500px">
-					<img class="mySlides w3-animate-fading" src="image/Slides/one.jpg" style="width:100%">
-					<img class="mySlides w3-animate-fading" src="image/Slides/two.jpg" style="width:100%">
-					<img class="mySlides w3-animate-fading" src="image/Slides/three.jpg" style="width:100%">
-					<img class="mySlides w3-animate-fading" src="image/Slides/four.jpg" style="width:100%">
-					<img class="mySlides w3-animate-fading" src="image/Slides/five.jpg" style="width:100%">
-				</div>
-			</div>
-				</br>
-				</br>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<img src="image/couple.jpg" id="couple"></img>
-					</div>
-					<div class="col-md-4">
-						<img src="image/ladymonday.jpg" id="ladymonday"></img>
-					</div>
-					<div class="col-md-4">
-						<img src="image/wednesdayoffer.png" id="wednesdayoffer"></img>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<h3 class="deal">COUPLE DEAL</h3>
-						<p>For couples or friends booking in together 10 Euro
-						off each hour everyday.</p>
-					</div>
-					<div class="col-md-4">
-						<h3 class="deal">LADY'S MONDAY</h3>
-						<p>We have a very special offer for ladies on every monday. If you 
-							book in we give you 10 Euro off per hour.</p>	
-					</div>
-					<div class="col-md-4">
-						<h3 class="deal">IT'S WEDENSDAY!</h3>
-						<p>Every wednesday for all clients we offer you 10 Euro off per hour.</p>	
-					</div>
-				</div>
-			</div>	
-				
 			<div class="bottom">
 				<div class="container">
 					<div class="col-md-3">
@@ -131,21 +98,6 @@
 				});
 			});
 		</script>
-		<script>
-			var myIndex = 0;
-				carousel();
-
-			function carousel() {
-				var i;
-				var x = document.getElementsByClassName("mySlides");
-				for (i = 0; i < x.length; i++) {
-					x[i].style.display = "none";  
-					}
-					myIndex++;
-					if (myIndex > x.length) {myIndex = 1}    
-					x[myIndex-1].style.display = "block";  
-					setTimeout(carousel, 6000); // Change image every 2 seconds
-			}
-		</script>	
+		
 	</body>
 </html>
