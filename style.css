@@ -3,7 +3,8 @@
 background-image:url('image/lady.jpg');
 height:700px;
 background-attachment:fixed;
-color:#e67300;	
+color:#e67300;
+text-shadow: 2px 2px white;
 }
 body
 {
@@ -89,7 +90,7 @@ text-align:center;
 .bottomt
 {
 text-align:left;
-color:#998200;	
+color:#333;	
 }
 .bh
 {
@@ -107,7 +108,7 @@ text-align:left;
 }
 #bottoml
 {
-color:#998200;
+color:#333;
 text-align:left;	
 }
 .morebottom
